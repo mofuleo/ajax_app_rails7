@@ -4,7 +4,7 @@ form.addEventListener("submit",()=> {
   // console.log("イベント発火");
   const formData = new FormData(form);
   form.addEventListener("submit",(e) => {
-    e.preventDefault()"
+    e.preventDefault();
     
   const XHR = new XMLHttpRequest();
   XHR.open("POST", "/posts", true);
